@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.Controller3">
+   <children>
+      <Label layoutX="291.0" layoutY="185.0" prefHeight="15.0" prefWidth="58.0" />
+      <Button layoutX="36.0" layoutY="32.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaff00" height="15.0" layoutX="153.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.5" width="100.0" />
+      <Label layoutX="291.0" layoutY="80.0" prefHeight="39.0" prefWidth="237.0" text="use the bar to catch balls">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fx:id="circle" fill="RED" layoutX="203.0" layoutY="165.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label layoutX="283.0" layoutY="153.0" prefHeight="39.0" prefWidth="237.0" text="catch to get points">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="bonusRec" arcHeight="5.0" arcWidth="5.0" fill="#ff7400" height="32.0" layoutX="180.0" layoutY="225.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="36.0" />
+      <Label layoutX="283.0" layoutY="217.0" prefHeight="39.0" prefWidth="237.0" text="X2 points in 10 sec">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="287.0" prefHeight="39.0" prefWidth="525.0" text="You have 3 lives at the start, try to survive as long as you can!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
